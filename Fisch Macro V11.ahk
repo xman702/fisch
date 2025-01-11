@@ -45,13 +45,13 @@ NavigationKey := "ň"
 ;     SHAKE SETTINGS     ====================================================================================================;
 
 ; Change to "Navigation" or "Click"
-ShakeMode := "Navigation"
+ShakeMode := "Click"
 
 ; Color range to scan for fish bar
 FishBarColorTolerance := 0
 
 ; Seconds for click shake to be considered failed
-ClickShakeFailsafe := 20
+ClickShakeFailsafe := 15
 ; Color range to scan for "shake" text
 ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
@@ -67,7 +67,7 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 0
+ManualBarSize := 0.15
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 10
 ; Color range to scan for initial white bar
@@ -81,7 +81,7 @@ ArrowColorTolerance := 0
 ; Amount of clicks per action cycle
 StabilizerLoop := 10
 ; Ratio for bar side maximum hold (1 = max bar|0.5 = half bar)
-SideBarRatio := 0.8
+SideBarRatio := 0.15
 ; Multiplier for how long to wait at the sides to prevent bounce
 SideBarWaitMultiplier := 4.5
 
